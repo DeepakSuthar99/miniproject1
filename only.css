@@ -36,9 +36,8 @@ text-align: center;
 	cursor: pointer;
 
 }
-.search-box
+.menu-bar ul li
 {
-
-	
-
+display: inline-block;
+text-decoration: none;
 }
