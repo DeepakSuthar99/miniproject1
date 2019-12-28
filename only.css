@@ -1,0 +1,44 @@
+body
+{
+margin: 0;
+padding: 0;
+width: 100%;
+font-size: 12px;
+font-family: sans-serif;
+}
+.notify
+{
+background-color: #222220;
+color: #fff;
+font-size: 17px;
+text-align: center;
+}
+.head
+{
+}
+.logo
+{
+	height: 40px;
+	margin:1% 40%;
+
+}
+.input-box
+{
+	margin-top: 9px;
+	margin-left: 30px;
+	border: 1px solid black;
+
+}
+.search-icon
+{
+	background: white;
+	position: relative;
+	cursor: pointer;
+
+}
+.search-box
+{
+
+	
+
+}
