@@ -1,6 +1,3 @@
-@media screen and (max-width:100%)
-{
-}
 body
 {
 margin: 0;
@@ -16,7 +13,6 @@ color: #fff;
 font-size: 18px;
 padding: 10px;
 text-align: center;
-width: 100%
 }
 .head
 {
@@ -93,32 +89,149 @@ float: right;
 }
 nav ul.nav_title1
 {
-	display: inline-flex;
-	    margin-left: 20%;
+width: 100%;
+display: inline-flex;
+margin-left: 23%;
+font-size: 16px;
 }
 nav ul.nav_title1 li
 {
-	display: inline-flex;
+display: inline-flex;
 }
 nav ul.nav_title1 li a
 {
-
-	text-decoration: none;
-	color: #676767;
+text-decoration: none;
+color: #676767;
+}
+nav ul.nav_title1 li:nth-child(2)
+{
+margin-left: 2.3%;
+}
+nav ul.nav_title1 li:nth-child(3)
+{
+margin-left: 2.3%;
+}
+nav ul.nav_title1 li:nth-child(4)
+{
+margin-left: 2.3%;
+}
+nav ul.nav_title1 li:nth-child(5)
+{
+margin-left: 2.3%;
+}
+nav ul.nav_title1 li:nth-child(6)
+{
+margin-left: 2.3%;
+}
+nav ul.nav_title1 li:nth-child(7)
+{
+margin-left: 2.3%;
+}
+nav ul.nav_title1 li:nth-child(5) a
+{
+color: #e4032d;
 }
 nav ul.nav_title2
 {
-	display: inline-flex;
-	    margin-left: 20%;
+width: 100%;
+display: inline-flex;
+margin-left: 23%;
+font-size: 16px;
 }
 nav ul.nav_title2 li
 {
-	display: inline-flex;
+display: inline-flex;
 }
 nav ul.nav_title2 li a
 {
-	
-	text-decoration: none;
-	color: #676767;
-
+text-decoration: none;
+color: #676767;
+}
+nav ul.nav_title2 li:nth-child(2)
+{
+margin-left: 1.5%;
+}
+nav ul.nav_title2 li:nth-child(3)
+{
+margin-left: 1.5%;
+}
+nav ul.nav_title2 span
+{
+padding-right: 3%;
+}
+.banner
+{
+width: 100%;
+}
+.banner img
+{
+width: 100%;
+}
+.row1
+{
+width: 100%;
+display: inline-flex;
+}
+.row1 img
+{
+width: 30%;
+padding: 1% 1.8%;
+}
+.row2{
+width: 100%;
+display: inline-flex;
+}
+.row2  img
+{
+width: 47%;
+padding: 1% 1.7%;
+}
+.row3
+{
+width: 100%;
+display: inline-flex;
+}
+.row3 img
+{
+width: 30%;
+padding: 1% 1.8%;
+}
+ul.section-menu
+{
+width: 100%;
+display: inline-flex;
+margin-left: 10%;
+font-size: 16px;
+}
+ul.section-menu li a
+{
+text-decoration: none;
+color: #676767;
+}
+ul.section-menu li:nth-child(2)
+{
+margin-left: 28%;
+}
+ul.section-menu li:nth-child(3)
+{
+margin-left: 26%;
+}
+ul.section-menu
+{
+list-style-type: none;
+}
+ul.section-menu span{
+margin: 27%;
+font-size: 1.5em;
+padding: 2%
+}
+.row4
+{
+	width: 100%;
+	display: inline-flex;
+}
+.row4 img
+{
+	width: 21.6%;
+	padding: 1% 1.7%;
 }
