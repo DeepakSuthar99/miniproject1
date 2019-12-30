@@ -12,7 +12,7 @@ font-family: sans-serif;
 background: #222220;
 color: #fff;
 font-size: 18px;
-padding: 10px;
+padding: 0.5%;
 text-align: center;
 }
 .head
@@ -58,7 +58,7 @@ position: relative;
 position: absolute;
 float: right;
 font-size: 1.4em;
-margin-left: 22%;
+margin-left: 21.5%;
 padding: 0.6% 0.2%;
 }
 .icon_head
@@ -91,6 +91,7 @@ float: right;
 nav ul.nav_title1
 {
 padding: 0;
+margin: 0.3% 0% 0.3% 0%;
 width: 100%;
 display: inline-flex;
 font-size: 16px;
@@ -139,6 +140,7 @@ color: #e4032d;
 nav ul.nav_title2
 {
 padding: 0;
+margin: 0.3% 0% 0.3% 0%;
 width: 100%;
 display: inline-flex;
 font-size: 16px;
@@ -175,6 +177,7 @@ width: 100%;
 .banner img
 {
 width: 100%;
+padding: 0.4% 0% 0.2% 0%;
 }
 .row1
 {
@@ -184,7 +187,7 @@ display: inline-flex;
 .row1 img
 {
 width: 30%;
-padding: 1% 1.8%;
+padding: 1% 1.65%;
 }
 .row2
 {
@@ -194,7 +197,7 @@ display: inline-flex;
 .row2  img
 {
 width: 47%;
-padding: 1% 1.7%;
+padding: 1% 1.5%;
 }
 .row3
 {
@@ -204,7 +207,7 @@ display: inline-flex;
 .row3 img
 {
 width: 30%;
-padding: 1% 1.8%;
+padding: 1% 1.65%;
 }
 ul.section-menu
 {
@@ -272,7 +275,11 @@ padding: 1%;
 .footer1 div.content1
 {
 width: 25%;
-padding-top: 2%;
+padding: 2% 0% 0% 5%;
+}
+.footer1 ul
+{
+    padding: 0;
 }
 .footer1 div.content1 ul li a
 {
@@ -286,7 +293,7 @@ padding-top: 2%;
 .footer1 div.content2
 {
 width: 25%;
-padding-top: 2%;
+padding: 2% 0% 0% 3%;
 }
 .footer1 div.content2 ul li a
 {
@@ -300,7 +307,7 @@ padding-top: 2%;
 .footer1 div.content3
 {
 width: 25%;
-padding-top: 2%;
+padding: 2% 0% 0% 3%;
 }
 .footer1 div.content3 ul li a
 {
@@ -314,6 +321,12 @@ padding-top: 2%;
 .footer2 
 {
 width: 100%;
+    padding: 0;
+}
+.footer2 ul
+{
+width: 100%;
+    padding: 0;
 }
 .footer2 ul li a
 {
@@ -327,16 +340,27 @@ width: 100%;
 }
 .footer2 ul
 {
+	margin: 0;
 	width: 100%;
 	display: inline-flex;
 	
 }
 .footer2 ul li:nth-child(1)
 {
-	padding-left: 40%;
+	padding:1% 0% 0% 38%;
 }
 .footer2 ul li:nth-child(2)
 {
-	padding-left: 3%;
+	padding:1% 0% 0% 3%;
 }
+.footer2 ul li:nth-child(3)
+{
+	padding:1% 0% 0% 3%;
+}
+.footer2 ul li:nth-child(4)
+{
+	padding-left: 36%;
+	font-size: 3em;
+}
+
 
